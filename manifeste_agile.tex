@@ -1,0 +1,99 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage[T1]{fontenc}
+
+%default values :
+%\textwidth = 390pt
+%\textheight = 592pt
+\usepackage[textwidth=460pt, textheight=670pt]{geometry}
+\pagenumbering{gobble}
+
+%blinded footnote command
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\begin{document}
+
+\section*{Manifeste pour le développement Agile de logiciels}
+
+Nous découvrons comment mieux développer des logiciels
+par la pratique et en aidant les autres à le faire.
+\\Ces expériences nous ont amenés à valoriser :
+\vspace{5mm}
+
+{\LARGE Les individus et leurs interactions} {\large plus que les processus et les outils}
+
+{\LARGE Des logiciels opérationnels} {\large plus qu’une documentation exhaustive}
+
+{\LARGE La collaboration avec les clients} {\large plus que la négociation contractuelle}
+
+{\LARGE L’adaptation au changement} {\large plus que le suivi d’un plan}
+\vspace{5mm}
+~\\Nous reconnaissons la valeur des seconds éléments,
+mais privilégions les premiers.
+
+
+\subsection*{Principes sous-jacents au manifeste}
+
+Nous suivons ces principes:
+\begin{itemize}
+\item[$\circ$] Notre plus haute priorité est de satisfaire le client
+en livrant rapidement et régulièrement des fonctionnalités
+à grande valeur ajoutée.
+\item[$\circ$] Accueillez positivement les changements de besoins,
+même tard dans le projet. Les processus Agiles
+exploitent le changement pour donner un avantage
+compétitif au client.
+\item[$\circ$] Livrez fréquemment un logiciel opérationnel avec des
+cycles de quelques semaines à quelques mois et une
+préférence pour les plus courts.
+\item[$\circ$] Les utilisateurs ou leurs représentants et les
+développeurs doivent travailler ensemble quotidiennement
+tout au long du projet.
+\item[$\circ$] Réalisez les projets avec des personnes motivées.
+Fournissez-leur l’environnement et le soutien dont ils
+ont besoin et faites-leur confiance pour atteindre les
+objectifs fixés.
+\item[$\circ$] La méthode la plus simple et la plus efficace pour
+transmettre de l’information à l'équipe de développement
+et à l’intérieur de celle-ci est le dialogue en face à face.
+\item[$\circ$] Un logiciel opérationnel est la principale mesure d’avancement.
+\item[$\circ$] Les processus Agiles encouragent un rythme de développement
+soutenable. Ensemble, les commanditaires, les développeurs
+et les utilisateurs devraient être capables de maintenir
+indéfiniment un rythme constant.
+\item[$\circ$] Une attention continue à l'excellence technique et
+à une bonne conception renforce l’Agilité.
+\item[$\circ$] La simplicité -- c’est-à-dire l’art de minimiser la
+quantité de travail inutile -- est essentielle.
+\item[$\circ$] Les meilleures architectures, spécifications et
+conceptions émergent d'équipes auto-organisées.
+\item[$\circ$] À intervalles réguliers, l'équipe réfléchit aux moyens
+de devenir plus efficace, puis règle et modifie son
+comportement en conséquence.
+\end{itemize}
+
+
+\vspace{5mm}
+
+
+\begin{center}
+\begin{tabular}{ccc}
+Kent Beck & James Grenning & Robert C. Martin \\ 
+Mike Beedle & Jim Highsmith & Steve Mellor \\ 
+Arie van Bennekum & Andrew Hunt & Ken Schwaber \\ 
+Alistair Cockburn & Ron Jeffries & Jeff Sutherland \\ 
+Ward Cunningham & Jon Kern & Dave Thomas \\ 
+Martin Fowler & Brian Marick & ~ \\ 
+\end{tabular} 
+\end{center}
+
+\blfootnote{\copyright~2001, the above authors.\\This declaration may be freely copied in any form, but only in its entirety through this notice.}
+
+\end{document}
